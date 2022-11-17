@@ -1,0 +1,34 @@
+
+
+You must have Python installed on your computer. You can install Visual Studio Code optionally.
+First download "pytube" to your computer using terminal: (C:Users/username>pip install pytube)
+We write our first line command in a file we open : (from pytube import YouTube)
+We create the field where we will enter the link so that our machine can find the video: (link = input("Link: "))
+Since our importing place is Youtube, we specify the type of link: (yt = YouTube(link))
+We indicate that we want to download in the highest quality: (ys = yt.streams.get_highest_resolution())
+-Optional- Now we add text so that we can understand that the download has started: (print("Download Started..."))
+We write our command to start the download: (ys.download())
+-Optional- To see that the download has finished: (print("Download Complete."))
+
+After the writing process is complete, it should look like this:
+
+------------------------------------------------------------
+from pytube import YouTube
+
+link = input("Link: ")
+
+yt = YouTube(link)
+ys = yt.streams.get_highest_resolution()
+
+print("Download Started...")
+ys.download()
+print("Download Complete.")
+------------------------------------------------------------
+
+!There are 0 errors in this code sequence.!
+
+To run the machine, we write the name of your file from the terminal (cmd) with the .py extension.
+Example: C:Users/username>Video_downloader.py
+
+Download speed varies according to video length..
+
