@@ -1,0 +1,31 @@
+Bilgisayarınızda Python kurulu olmalı. İsteğe göre Visual Studio Code kurabilirsiniz.
+İlk önce terminali kullanarak bilgisayarınıza "pytube" indirin. (C:Users/kullaniciadi>pip install pytube)
+Açtığımız bir dosyada ilk satır komudumuzu yazıyoruz :( from pytube import YouTube )
+Makinamızın videoyu bulabilmesi için linki gireceğimiz alanı oluşturuyoruz:(link = input("Link: "))
+İmportlama yerimiz Youtube olduğu için linkin türünü belirtiyoruz:(yt = YouTube(link))
+En yüksek kalitede indirmek istediğimizi belirtiyoruz:(ys = yt.streams.get_highest_resolution())
+-Opsiyonel-  Şimdi indirmenin başladığını anlamamız için yazı ekliyoruz:(print("İndirme Başlatıldı..."))
+İndirmeyi başlatmak için gerekli olan komudumuzu yazıyoruz:(ys.download())
+-Opsiyonel-  İndirmenin bittiğini görmek için:(print("İndirme Tamamlandı."))
+
+Yazma işlemi tamamlandıktan sonra şu şekilde gözükmeli;
+
+------------------------------------------------------------
+from pytube import YouTube
+
+link = input("Link: ")
+
+yt = YouTube(link)
+ys = yt.streams.get_highest_resolution()
+
+print("İndirme Başlatıldı...")
+ys.download()
+print("İndirme Tamamlandı.")
+------------------------------------------------------------
+
+!Bu kod diziliminde 0 hata vardır.!
+
+Makinayı çalıştırmak için terminalden(cmd) dosyanızın adı ne ise .py uzantısıyla birlikte yazıyoruz.
+Örnek: C:Users/kullaniciadi>Video_indirici.py
+
+Video uzunluğuna göre indirme hızı değişmektedir..
