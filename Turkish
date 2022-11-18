@@ -8,8 +8,7 @@
 7-İndirmeyi başlatmak için gerekli olan komudumuzu yazıyoruz:(ys.download())
 7- -Opsiyonel-  İndirmenin bittiğini görmek için:(print("İndirme Tamamlandı."))
 
-Yazma işlemi tamamlandıktan sonra şu şekilde gözükmeli;
-
+8-Yazma işlemi tamamlandıktan sonra şu şekilde gözükmeli;
 ------------------------------------------------------------
 from pytube import YouTube
 
@@ -23,9 +22,9 @@ ys.download()
 print("İndirme Tamamlandı.")
 ------------------------------------------------------------
 
-8-!Bu kod diziliminde 0 hata vardır.!
+9-!Bu kod diziliminde 0 hata vardır.!
 
-9-Makinayı çalıştırmak için terminalden(cmd) dosyanızın adı ne ise .py uzantısıyla birlikte yazıyoruz.
-Örnek: C:Users/kullaniciadi>Video_indirici.py
+10-Makinayı çalıştırmak için terminalden(cmd) dosyanızın adı(Video_Downloader) ile .py uzantısını birlikte yazıyoruz.
+Örnek: C:Users/kullaniciadi>Video_Downloader.py
 
 Video uzunluğuna göre indirme hızı değişmektedir..
