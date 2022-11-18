@@ -1,12 +1,12 @@
-Bilgisayarınızda Python kurulu olmalı. İsteğe göre Visual Studio Code kurabilirsiniz.
-İlk önce terminali kullanarak bilgisayarınıza "pytube" indirin. (C:Users/kullaniciadi>pip install pytube)
-Açtığımız bir dosyada ilk satır komudumuzu yazıyoruz :( from pytube import YouTube )
-Makinamızın videoyu bulabilmesi için linki gireceğimiz alanı oluşturuyoruz:(link = input("Link: "))
-İmportlama yerimiz Youtube olduğu için linkin türünü belirtiyoruz:(yt = YouTube(link))
-En yüksek kalitede indirmek istediğimizi belirtiyoruz:(ys = yt.streams.get_highest_resolution())
--Opsiyonel-  Şimdi indirmenin başladığını anlamamız için yazı ekliyoruz:(print("İndirme Başlatıldı..."))
-İndirmeyi başlatmak için gerekli olan komudumuzu yazıyoruz:(ys.download())
--Opsiyonel-  İndirmenin bittiğini görmek için:(print("İndirme Tamamlandı."))
+1-Bilgisayarınızda Python kurulu olmalı. İsteğe göre Visual Studio Code kurabilirsiniz.
+2-İlk önce terminali kullanarak bilgisayarınıza "pytube" indirin. (C:Users/kullaniciadi>pip install pytube)
+3-Açtığımız bir dosyada ilk satır komudumuzu yazıyoruz :( from pytube import YouTube )
+4-Makinamızın videoyu bulabilmesi için linki gireceğimiz alanı oluşturuyoruz:(link = input("Link: "))
+5-İmportlama yerimiz Youtube olduğu için linkin türünü belirtiyoruz:(yt = YouTube(link))
+6-En yüksek kalitede indirmek istediğimizi belirtiyoruz:(ys = yt.streams.get_highest_resolution())
+7- -Opsiyonel-  Şimdi indirmenin başladığını anlamamız için yazı ekliyoruz:(print("İndirme Başlatıldı..."))
+7-İndirmeyi başlatmak için gerekli olan komudumuzu yazıyoruz:(ys.download())
+7- -Opsiyonel-  İndirmenin bittiğini görmek için:(print("İndirme Tamamlandı."))
 
 Yazma işlemi tamamlandıktan sonra şu şekilde gözükmeli;
 
@@ -23,9 +23,9 @@ ys.download()
 print("İndirme Tamamlandı.")
 ------------------------------------------------------------
 
-!Bu kod diziliminde 0 hata vardır.!
+8-!Bu kod diziliminde 0 hata vardır.!
 
-Makinayı çalıştırmak için terminalden(cmd) dosyanızın adı ne ise .py uzantısıyla birlikte yazıyoruz.
+9-Makinayı çalıştırmak için terminalden(cmd) dosyanızın adı ne ise .py uzantısıyla birlikte yazıyoruz.
 Örnek: C:Users/kullaniciadi>Video_indirici.py
 
 Video uzunluğuna göre indirme hızı değişmektedir..
