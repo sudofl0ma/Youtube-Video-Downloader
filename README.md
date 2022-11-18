@@ -37,3 +37,6 @@ Pictures for tutorial. / Anlatım için fotoğraflar.
 ![opening](https://user-images.githubusercontent.com/118469792/202744098-263614cc-ef33-4483-aa59-06a6c639c739.png)
 
 
+The codes will not work when pytube is not installed on your device. / Cihazınızda pytube kurulu olmadığında kodlar çalışmayacaktır.
+
+
